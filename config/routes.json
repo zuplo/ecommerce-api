@@ -30,7 +30,7 @@
       "path": "/products",
       "handler": {
         "export": "getAll",
-        "module": "$import(./modules/users)"
+        "module": "$import(./modules/products)"
       },
       "methods": ["GET"],
       "corsPolicy": "anything-goes",
@@ -43,7 +43,33 @@
       "path": "/products/:id",
       "handler": {
         "export": "getById",
-        "module": "$import(./modules/users)"
+        "module": "$import(./modules/products)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
+      "path": "/transactions",
+      "handler": {
+        "export": "getAll",
+        "module": "$import(./modules/transactions)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
+      "path": "/transactions/:id",
+      "handler": {
+        "export": "getById",
+        "module": "$import(./modules/transactions)"
       },
       "methods": ["GET"],
       "corsPolicy": "anything-goes",
