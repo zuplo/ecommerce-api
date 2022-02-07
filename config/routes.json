@@ -1,0 +1,67 @@
+{
+  "routes": [
+    {
+      "path": "/users",
+      "handler": {
+        "export": "getAll",
+        "module": "$import(./modules/users)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
+      "path": "/users/:id",
+      "handler": {
+        "export": "getById",
+        "module": "$import(./modules/users)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
+      "path": "/products",
+      "handler": {
+        "export": "getAll",
+        "module": "$import(./modules/users)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
+      "path": "/products/:id",
+      "handler": {
+        "export": "getById",
+        "module": "$import(./modules/users)"
+      },
+      "methods": ["GET"],
+      "corsPolicy": "anything-goes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      }
+    }
+  ],
+  "versions": [
+    {
+      "name": "none",
+      "pathPrefix": ""
+    },
+    {
+      "name": "v1",
+      "pathPrefix": "/v1"
+    }
+  ],
+  "policies": []
+}
