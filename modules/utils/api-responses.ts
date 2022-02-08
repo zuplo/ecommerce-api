@@ -40,6 +40,9 @@ export class ApiResponseFactory {
   static formattedResponse(data: unknown): Response {
     return new Response(JSON.stringify(data, undefined, 2), {
       status: 200,
+      headers: {
+        "content-type": "application/json",
+      },
     });
   }
 }
