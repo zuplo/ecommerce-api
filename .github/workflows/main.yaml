@@ -33,5 +33,5 @@ jobs:
         env:
           CF_ACCOUNT_ID: 4f59a390b9f139a4a82b757edd3c71dd
           CF_API_TOKEN: ${{ secrets.ZUPLO_CF_API_TOKEN }}
-          ZUP_NAME: placeholder-api
-          ZUP_PROJECT_ID: placeholder-api
+          ZUP_NAME: ecommerce-sample-api
+          ZUP_PROJECT_ID: ecommerce-sample-api
