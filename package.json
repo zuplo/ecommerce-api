@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@zuplo/core": "^3.189.0",
-    "@zuplo/runtime": "^3.189.0"
+    "@zuplo/runtime": "^3.222.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.1.2",
