@@ -9,17 +9,29 @@
 
 import { ResponseFactory, SystemResponse } from "@zuplo/runtime";
 
-const NOT_FOUND: SystemResponse = {
-  code: "USER_CREATE_FAILED",
-  help_url: "https://go.zuplo.com?code=USER_CREATE_FAILED",
-  message: "The user could not be created",
+const USER_NOT_FOUND: SystemResponse = {
+  code: "USER_NOT_FOUND",
+  help_url: "https://zup.fail/EXAMPLE_ERROR",
+  message: "The user was not found",
+};
+const PRODUCT_NOT_FOUND: SystemResponse = {
+  code: "USER_NOT_FOUND",
+  help_url: "https://zup.fail/EXAMPLE_ERROR",
+  message: "The user was not found",
+};
+const TRANSACTION_NOT_FOUND: SystemResponse = {
+  code: "USER_NOT_FOUND",
+  help_url: "https://zup.fail/EXAMPLE_ERROR",
+  message: "The user was not found",
 };
 
 /**
  * @internal
  */
 export const ApiResponses = {
-  NOT_FOUND,
+  USER_NOT_FOUND,
+  PRODUCT_NOT_FOUND,
+  TRANSACTION_NOT_FOUND,
 };
 
 export class ApiResponseFactory {

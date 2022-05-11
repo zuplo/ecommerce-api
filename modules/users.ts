@@ -9,7 +9,7 @@ export async function getAll(request: ZuploRequest, context: ZuploContext) {
 export async function getById(request: ZuploRequest, context: ZuploContext) {
   const result = data.find(({ id }) => id.toString() === request.params.id);
   if (!result) {
-    return ResponseFactory.notFound(ApiResponses.NOT_FOUND);
+    return ResponseFactory.notFound(ApiResponses.USER_NOT_FOUND);
   }
   return ApiResponseFactory.formattedResponse(result);
 }
