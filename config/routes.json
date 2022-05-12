@@ -53,6 +53,19 @@
       }
     },
     {
+      "path": "/products",
+      "handler": {
+        "export": "post",
+        "module": "$import(./modules/products)"
+      },
+      "methods": ["POST"],
+      "corsPolicy": "anything-goes",
+      "version": "none",
+      "policies": {
+        "inbound": []
+      }
+    },
+    {
       "path": "/transactions",
       "handler": {
         "export": "getAll",
