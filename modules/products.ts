@@ -13,3 +13,7 @@ export async function getById(request: ZuploRequest, context: ZuploContext) {
   }
   return ApiResponseFactory.formattedResponse(result);
 }
+
+export async function post() {
+   return new Response('', { status: 201, statusText: "Created" });
+}
