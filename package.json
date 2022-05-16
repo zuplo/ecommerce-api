@@ -11,13 +11,13 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@zuplo/core": "^3.317.0",
-    "@zuplo/runtime": "^3.317.0"
+    "@zuplo/core": "^3.332.0",
+    "@zuplo/runtime": "^3.332.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.3.1",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
