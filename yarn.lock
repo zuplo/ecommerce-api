@@ -404,13 +404,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:5.25.0"
+"@typescript-eslint/eslint-plugin@npm:^5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.25.0
-    "@typescript-eslint/type-utils": 5.25.0
-    "@typescript-eslint/utils": 5.25.0
+    "@typescript-eslint/scope-manager": 5.26.0
+    "@typescript-eslint/type-utils": 5.26.0
+    "@typescript-eslint/utils": 5.26.0
     debug: ^4.3.4
     functional-red-black-tree: ^1.0.1
     ignore: ^5.2.0
@@ -423,42 +423,42 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 7a47dc9b95031ab9e8d94a062b95c124486d471fa385335ef0129eff0854043b1894233fe28a2832cbf1c2be235242cf1eba087f4da1f4262599f18147ee1edd
+  checksum: ea75e57dfb6f95f39d7a4a90f25d5618548ca6026e8836c0962c141908f3bfb6d4a744d7597934572fa25e88c97efb8b9cd25e85785474256d5ebe58f9c1df30
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/parser@npm:5.25.0"
+"@typescript-eslint/parser@npm:^5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/parser@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.25.0
-    "@typescript-eslint/types": 5.25.0
-    "@typescript-eslint/typescript-estree": 5.25.0
+    "@typescript-eslint/scope-manager": 5.26.0
+    "@typescript-eslint/types": 5.26.0
+    "@typescript-eslint/typescript-estree": 5.26.0
     debug: ^4.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 9bd53d6f5f5e7b64282760a4f68411f6f6e272754aa8b4c54951bd03c18981183277dfefff1207c3d549d25d34dbe162472f7fa102ec5306113a7811f263fc00
+  checksum: 3c13a989d1c5aa3d9050203ca53fa28642fe49b9f09b668b7c424f13bfc8352e0a57d2ae16c55cd9b4f9fb98d730a440b0270a94c827938579df8097f90bdfac
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/scope-manager@npm:5.25.0"
+"@typescript-eslint/scope-manager@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/types": 5.25.0
-    "@typescript-eslint/visitor-keys": 5.25.0
-  checksum: 0616bad66bd3fe885df3401bbc3ab6631dca3b70ca3d2e8a9881d9a27654e3df9fd219abc9b7e1c23668c113d54bbb049c6231af3a2d86abcd919329b1cb4ff4
+    "@typescript-eslint/types": 5.26.0
+    "@typescript-eslint/visitor-keys": 5.26.0
+  checksum: 56db69b8dc3502261c403c1217f32fb7e8244c1f192c3b486733ad8cd3e7672b365d2c6da7ec8ff40113c4da507c04f4e00b6104ca68579c19525cac828a631b
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/type-utils@npm:5.25.0"
+"@typescript-eslint/type-utils@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/type-utils@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/utils": 5.25.0
+    "@typescript-eslint/utils": 5.26.0
     debug: ^4.3.4
     tsutils: ^3.21.0
   peerDependencies:
@@ -466,23 +466,23 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: f733b42437e7a023985ad9324e57171c8b358f54a0c5a3be3b7bc7f317f1eeee4a60d14a1873efd820a3f9011c395f5e3a75eac4eaac520948aeba4d3e4e4953
+  checksum: cafd9fba76df8b184adcb5e6f66e3f0c3b8c6e98debe585abde9d3c4372feee0bc156ed5eed89cd0747938e45c8a4d3d65c43dd561b47e8e12a0207c85e2dc6f
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/types@npm:5.25.0"
-  checksum: 0fa7eba1e35bbc32d865ce38cc5800aedf2b1d8aa17e8a20ff1cf05b59a92a684c0727f7ac2a26ecdf17483957bea163fe03fc1556503f23e0d974a8d9c33b82
+"@typescript-eslint/types@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/types@npm:5.26.0"
+  checksum: 98798616d832da8e5ef61f050e4e72ed921a162cb4ce2b2dfe0a317c66998157e832f449aeab21a1fdfd806e7134091bc1a9446b1089f4687786b646ad8738e7
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/typescript-estree@npm:5.25.0"
+"@typescript-eslint/typescript-estree@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/types": 5.25.0
-    "@typescript-eslint/visitor-keys": 5.25.0
+    "@typescript-eslint/types": 5.26.0
+    "@typescript-eslint/visitor-keys": 5.26.0
     debug: ^4.3.4
     globby: ^11.1.0
     is-glob: ^4.0.3
@@ -491,33 +491,33 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 72638b1a9826a3062f629e23d3c9147646dc2740add1aa8bb2e63131215eed3309bc86647f7e52acecf3c169e94677d869690a050de37b7cd880ea89c63bde2a
+  checksum: 2cf147629474952725593da64827a7e4e39f79614019529d0d6e5b89236c55f3607c6b4a24f160dbc5978f4cfd60f96fcb573a770c2877f8e29d7552b40e2135
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/utils@npm:5.25.0"
+"@typescript-eslint/utils@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/utils@npm:5.26.0"
   dependencies:
     "@types/json-schema": ^7.0.9
-    "@typescript-eslint/scope-manager": 5.25.0
-    "@typescript-eslint/types": 5.25.0
-    "@typescript-eslint/typescript-estree": 5.25.0
+    "@typescript-eslint/scope-manager": 5.26.0
+    "@typescript-eslint/types": 5.26.0
+    "@typescript-eslint/typescript-estree": 5.26.0
     eslint-scope: ^5.1.1
     eslint-utils: ^3.0.0
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 744ab15cf003882db2f63b4cef1b788d5f3ab0f4b2f2fb0c1eee942cf899df9c66a34e2f6f614f1c562257041119ec03c12446f4ae72147b5f7cc0a2e5276ea6
+  checksum: c16828ba6bfbe3b0b6e9dadeece1cfd2345141bcd13824f99fe210c76e5ddb11f6f79e61705cafa421c549657da12d1700a1316d24c2eeaee6179b08f512b5fb
   languageName: node
   linkType: hard
 
-"@typescript-eslint/visitor-keys@npm:5.25.0":
-  version: 5.25.0
-  resolution: "@typescript-eslint/visitor-keys@npm:5.25.0"
+"@typescript-eslint/visitor-keys@npm:5.26.0":
+  version: 5.26.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.26.0"
   dependencies:
-    "@typescript-eslint/types": 5.25.0
+    "@typescript-eslint/types": 5.26.0
     eslint-visitor-keys: ^3.3.0
-  checksum: ec4d0558cf53305703c18dfd7e1cd53fc0736303a51d93a875227896a230fd049951cc0600c539719cc351d2c96cb4abc6aa9dd9b3a8401f27bb8033093f35b7
+  checksum: 4a5085d19e677f3b44ca4455bba85fd1a3be4d7d2e96bb22738a7497f6f4d16bfdee51059454a78b1e108d8e1593b1a31be40764a66448945118277cff5eff02
   languageName: node
   linkType: hard
 
@@ -528,9 +528,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zuplo/common@npm:^3.358.0":
-  version: 3.358.0
-  resolution: "@zuplo/common@npm:3.358.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.358.0%2F71a005a03d6d029e40449fbb75a4417e485ecf1c11dd2264a3c19ac454a7f97e"
+"@zuplo/common@npm:^3.364.0":
+  version: 3.364.0
+  resolution: "@zuplo/common@npm:3.364.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.364.0%2F7b458ebcca7a5c56948069c265972754bd0c26e21bd114353a7426d20a507893"
   dependencies:
     "@fastify/jwt": ^5.0.1
     "@google-cloud/storage": ^5.19.3
@@ -543,18 +543,18 @@ __metadata:
     node-fetch-cjs: ^3.2.3
     pino: ^7.10.0
     pino-pretty: ^7.6.1
-  checksum: 0cd20e7791ba3d7aaf44c9109a4c5672c1299ea476b9169b6d05f38aade459727987b79b4a49b046ace4c7dde11a268805234297aa92bdcd52451644503f37f1
+  checksum: eb4e23e0975b6451b895e5d5ef1e6dcdbebd50d203017120e88ba5ff12139e0307e3c88ab0c90bdce415793b61fd226264efa037db0b0bafcd500c89e7072a16
   languageName: node
   linkType: hard
 
-"@zuplo/core@npm:^3.358.0":
-  version: 3.358.0
-  resolution: "@zuplo/core@npm:3.358.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.358.0%2Fab2e27b54f1c7a79875a706c0f0124ff1f4d8171fb4382d62f4baa4a3811dfc8"
+"@zuplo/core@npm:^3.364.0":
+  version: 3.364.0
+  resolution: "@zuplo/core@npm:3.364.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.364.0%2Ffe6486af6311707c9aa0560de6397d1cb3a96b926398728cee9452f8407bb621"
   dependencies:
     "@apidevtools/json-schema-ref-parser": ^9.0.9
-    "@zuplo/common": ^3.358.0
-    "@zuplo/internal": ^3.358.0
-    "@zuplo/runtime": ^3.358.0
+    "@zuplo/common": ^3.364.0
+    "@zuplo/internal": ^3.364.0
+    "@zuplo/runtime": ^3.364.0
     ajv: ^8.11.0
     ajv-formats: ^2.1.1
     arg: ^5.0.1
@@ -581,42 +581,42 @@ __metadata:
     typescript: 4.5.5
   bin:
     zuplo: ./bin.js
-  checksum: a2d11ab0df25701f1db1c9d5a0c73ea1bc8f448e6d519d72e31a288a9d6db8c274ded13e6e90018879cab1647496011fa0bc6f2e237e01e30465dc9889d609d0
+  checksum: 1c3eaecbdd1b4dd2b49fd6290441b965fd6143a7a68153f83ecfa6694388423f1001e8d15e034406b74f14e1bd2664723962a44507976a3f315c72e013204f7c
   languageName: node
   linkType: hard
 
-"@zuplo/debug@npm:^3.358.0":
-  version: 3.358.0
-  resolution: "@zuplo/debug@npm:3.358.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.358.0%2F2d3dde54957feeb3fb0f75c33d51077b0ab45b1e3191ff7046ff6f6468e1b373"
-  checksum: 41b87b2a3bd38b5919ad017dde90876ae0d4ac78140d134dc17cc714788c86d2baa0c4c1a5db4a7b28308e0fea81a2af547c5bf956d5bd418cd00885ffcd724c
+"@zuplo/debug@npm:^3.364.0":
+  version: 3.364.0
+  resolution: "@zuplo/debug@npm:3.364.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.364.0%2Fe6e5edac30b76ffdf1bb61bbf2f74939b8b8f399b473450a0c05ad0c4b51cbd9"
+  checksum: c465cc31e6b38493cbd1468cbb927f1927e5011d3684afa73a06523b66eca8b9f928b09bbc49a33e0a4da33cc5955292953be6d555273133b179cf40eda59add
   languageName: node
   linkType: hard
 
-"@zuplo/internal@npm:^3.358.0":
-  version: 3.358.0
-  resolution: "@zuplo/internal@npm:3.358.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.358.0%2F2594fc980c4f47705429c21a780d58027cb2c9f812e909d83b72b3ce44d6414c"
+"@zuplo/internal@npm:^3.364.0":
+  version: 3.364.0
+  resolution: "@zuplo/internal@npm:3.364.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.364.0%2Fa44458c28f115cc7cc3c10e92b7ab7384e0d781a02ba10289bb50fe0b504b0f8"
   dependencies:
     ajv: ^8.11.0
     ajv-formats: ^2.1.1
     path-to-regexp: ^6.2.0
     ts-custom-error: ^3.2.0
-  checksum: 092b82a8ee4f1b51a23c15a527da0f0cfa3015ecbd35becdbbbcab19026573424ebf6f7ecb49f4b1fbbc39bc5727dba17b53212080cf0a72019d7bb4818c553d
+  checksum: bc9ab43440f03226b2e035e0013e51ba2cd9dec613220cf6e532b9490f2bb938b7f441b077ff1d20bbc774a9d5e92e5177ca7993cbd3ab5431847f48db7d732c
   languageName: node
   linkType: hard
 
-"@zuplo/runtime@npm:^3.358.0":
-  version: 3.358.0
-  resolution: "@zuplo/runtime@npm:3.358.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.358.0%2F6875579079fe4245da9ddbec0a65fec881a267bec204da68d572bd7d7b40b8df"
+"@zuplo/runtime@npm:^3.364.0":
+  version: 3.364.0
+  resolution: "@zuplo/runtime@npm:3.364.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.364.0%2F8108e623825da38ba01045e7593ff304527a3a3689628c7435bc4d0f6b3a693a"
   dependencies:
-    "@zuplo/debug": ^3.358.0
-    "@zuplo/internal": ^3.358.0
+    "@zuplo/debug": ^3.364.0
+    "@zuplo/internal": ^3.364.0
     ajv: ^8.11.0
     jose: ^4.7.0
     lru-cache: ^6.0.0
     path-to-regexp: ^6.2.0
     regenerator-runtime: ^0.13.9
     tslib: ^2.4.0
-  checksum: dc067b791db968645f5c92b39bd49412eec2d11a67f654c5586544d918bf0d8b9aa0138546a7c1b5d248ffddef09c4df79b076ecb60b5534b499db9bb666607c
+  checksum: 4725df68d49b6762f990fb7853b074bcc0dd39c5030c829cbef38a3fb26b8a7adfcff7f113adc32a8f092ad59ff8a2b970534d9d50c9b3d9cbf56d501bd78859
   languageName: node
   linkType: hard
 
@@ -4028,10 +4028,10 @@ __metadata:
   resolution: "placeholder-api@workspace:."
   dependencies:
     "@faker-js/faker": ^6.3.1
-    "@typescript-eslint/eslint-plugin": ^5.25.0
-    "@typescript-eslint/parser": ^5.25.0
-    "@zuplo/core": ^3.358.0
-    "@zuplo/runtime": ^3.358.0
+    "@typescript-eslint/eslint-plugin": ^5.26.0
+    "@typescript-eslint/parser": ^5.26.0
+    "@zuplo/core": ^3.364.0
+    "@zuplo/runtime": ^3.364.0
     eslint: ^8.16.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-import: ^2.26.0
