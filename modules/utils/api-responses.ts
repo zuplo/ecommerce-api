@@ -15,14 +15,14 @@ const USER_NOT_FOUND: SystemResponse = {
   message: "The user was not found",
 };
 const PRODUCT_NOT_FOUND: SystemResponse = {
-  code: "USER_NOT_FOUND",
+  code: "PRODUCT_NOT_FOUND",
   help_url: "https://zup.fail/EXAMPLE_ERROR",
-  message: "The user was not found",
+  message: "The product was not found",
 };
 const TRANSACTION_NOT_FOUND: SystemResponse = {
-  code: "USER_NOT_FOUND",
+  code: "TRANSACTION_NOT_FOUND",
   help_url: "https://zup.fail/EXAMPLE_ERROR",
-  message: "The user was not found",
+  message: "The transaction was not found",
 };
 
 /**
