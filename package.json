@@ -11,8 +11,8 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@zuplo/core": "^3.364.0",
-    "@zuplo/runtime": "^3.364.0"
+    "@zuplo/core": "^3.383.0",
+    "@zuplo/runtime": "^3.383.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.3.1",
@@ -23,7 +23,7 @@
     "eslint-plugin-import": "^2.26.0",
     "husky": "^7.0.4",
     "prettier": "^2.6.2",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.2"
   },
   "packageManager": "yarn@3.1.0"
 }
