@@ -6,6 +6,10 @@ jobs:
     name: Build & Release
     runs-on: ubuntu-latest
 
+    # Only checks out and builds; @zuplo deps resolve from the public npm registry.
+    permissions:
+      contents: read
+
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -22,9 +26,3 @@ jobs:
           GIT_SHA: ${{ github.sha }}
           API_VERSION: ${{ github.run_id }}
       - run: yarn lint
-      - uses: zuplo/deploy-zup-action@main
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          project: zuplo-ecommerce-api
-          account_id: 4f59a390b9f139a4a82b757edd3c71dd
-          api_token: ${{ secrets.ZUPLO_CF_API_TOKEN }}
